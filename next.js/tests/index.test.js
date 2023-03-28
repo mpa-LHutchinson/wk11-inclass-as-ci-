@@ -23,7 +23,7 @@ describe('Home Page', () => {
         let vercelLinks = 0;
 
         childLinks.forEach(link => {
-          if(link.href.includes("https://vercel.com/%22"))
+          if(link.href.includes("https://github.com"))
             vercelLinks++;
         });
 
