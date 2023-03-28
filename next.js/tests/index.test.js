@@ -31,5 +31,5 @@ describe('Home Page', () => {
         expect(vercelLinks).toBeGreaterThan(0); // at least one vercel link
       });
 
-
+////
 });
